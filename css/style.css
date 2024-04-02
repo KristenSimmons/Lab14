@@ -1,1 +1,60 @@
-/* TODO: Make it awesome */
+*body {
+  background-color: rgb(110, 71, 137);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  padding: 20px;
+  margin: 10px;
+  font-size: 32px;
+  text-align: center;
+  color: lightgray;
+}
+
+nav {
+  display: flex;
+  padding: 2rem 2rem;
+  background: lightgray;
+
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+
+}
+
+nav li {
+  padding-left: 1rem;
+
+}
+
+
+
+section {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section img:hover {
+  border:3px dotted black;
+  transition:350ms;
+
+}
+
+section img {
+  height: 20vw;
+  width: 20vw;
+  padding:5px;
+  margin: 5px;
+
+}
+
+footer p {
+  text-align: center;
+  color: lightgray;
+
+} TODO: Make it awesome */
