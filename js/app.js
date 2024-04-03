@@ -10,7 +10,7 @@ AppState.prototype.instantiateProducts = function () {
 
   for (let i = 0; i < productNames.length; i++) {
     if (productNames[i] === 'sweep') {
-      this.allProducts.push(new Product(productNames[i], 'png'))
+      this.allProducts.push(new Product(productNames[i], 'jpg'))
     } else {
       this.allProducts.push(new Product(productNames[i]))
     }
@@ -34,7 +34,7 @@ AppState.prototype.loadItems = function () {
 
 function Product(name, fileExtension = 'jpg') {
   this.name = name;
-  this.source = `assets/${name}.${fileExtension}`;
+  this.source = `img/${name}.${fileExtension}`;
   this.timesClicked = 0;
   this.timesShown = 0;
 }

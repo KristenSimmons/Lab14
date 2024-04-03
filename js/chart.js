@@ -32,7 +32,7 @@ function renderChart() {
 
         data: voteData,
         borderWidth: 2,
-        backgroundColor: 'green',
+        backgroundColor: 'rgb(179, 122, 219)',
         borderColor: 'black',
       },
       {
@@ -40,7 +40,7 @@ function renderChart() {
         data: viewData,
         borderWidth: 2,
         backgroundColor: 'black',
-        borderColor: 'green',
+        borderColor: 'rgb(179, 122, 219)',
       }
     ]
   };
@@ -52,7 +52,7 @@ function renderChart() {
         legend: {
           display: true,
           labels: {
-            color: 'lightgray'
+            color: 'black'
           }
         }
       }, 
@@ -60,7 +60,7 @@ function renderChart() {
       scales: {
         y: {
           ticks: {
-            color: 'lightgray',
+            color: 'black',
           }
 
 
@@ -68,7 +68,7 @@ function renderChart() {
         x: {
           beginAtZero: true,
           ticks: {
-            color: 'lightgray',
+            color: 'black',
           }
         },
       }

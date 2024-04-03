@@ -1,6 +1,7 @@
 *body {
-  background-color: rgb(110, 71, 137);
+  background-color: rgb(179, 122, 219);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
 }
 
 h1 {
@@ -8,15 +9,13 @@ h1 {
   margin: 10px;
   font-size: 32px;
   text-align: center;
-  color: lightgray;
+  color: black;
 }
 
 nav {
   display: flex;
   padding: 2rem 2rem;
-  background: lightgray;
-
-
+  background: rgb(179, 122, 219);
 }
 
 nav ul {
@@ -55,6 +54,6 @@ section img {
 
 footer p {
   text-align: center;
-  color: lightgray;
+  color: black;
 
-} TODO: Make it awesome */
+}
