@@ -5,4 +5,4 @@ Welcome to the Odd Duck Products application! This app gives users a chance to d
 Page Designed by:
 Kristen Simmons
 
-![Lighthouse Accessibility Report]](image-1.png)
+![screen shot](img/Lighthouse.png "Screen Shot of Lighthouse Accessibility Report")
